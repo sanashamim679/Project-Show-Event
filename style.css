@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(events.jpg);
+  background-repeat: no-repeat;
+  background-size: 1540px 1200px;
+}
+.mainContainer {
+  display: flex;
+}
+.rightContainer {
+  background-color:  rgb(49 48 48 / 90%);
+  padding: 7px;
+}
+.card1 {
+  margin: 25px;
+  color: white;
+  background-color: black;
+}
+
+.mainContent {
+  display: flex;
+  width: 650px;
+}
+.date {
+  background-color: black;
+  opacity: 1;
+  width: 141px;
+  justify-content: center;
+  padding: 47px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.date:hover {
+  /* opacity:1; */
+  background-color: rgba(237 55 115);
+}
+.content {
+  background-color: white;
+  color: black;
+  opacity: 1;
+  padding: 10px;
+}
+button {
+  margin: 5px;
+  padding: 6px;
+}
+
+.events {
+  background-color:  rgb(49 48 48 / 90%);
+  margin: 18px;
+  padding: 12px;
+  width: 88%;
+  color: white;
+}
+.events:hover {
+  opacity: 1;
+  background-color: rgb(237 55 115);
+}
